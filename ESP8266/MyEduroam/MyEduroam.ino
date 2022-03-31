@@ -14,14 +14,14 @@ extern "C" {
 //char username[] = "matheus_garbelini";
 //char identity[] = "matheus_garbelini";
 //char password[] = "testtest";
-//char ssid[] = "eduroam";
-//char username[] = "sballing@ucdavis.edu";
-//char identity[] = "sballing@ucdavis.edu";
-//char password[] = "areyoupleasedbymylongpassword";
-char ssid[] = "vroommates";
+char ssid[] = "eduroam";
 char username[] = "sballing@ucdavis.edu";
 char identity[] = "sballing@ucdavis.edu";
-char password[] = "threebigps";
+char password[] = "areyoupleasedbymylongpassword";
+//char ssid[] = "vroommates";
+//char username[] = "sballing@ucdavis.edu";
+//char identity[] = "sballing@ucdavis.edu";
+//char password[] = "threebigps";
 
 ESP8266WebServer server(80);
 const int led = 13;
